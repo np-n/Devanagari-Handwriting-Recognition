@@ -38,7 +38,7 @@ for image_identifier in range(1,scanned_input_image_count+1):
  
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    (thresh, thresh_image) = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY)
+    (thresh, thresh_image) = cv2.threshold(gray, 245, 255, cv2.THRESH_BINARY)
 
     binary_image = 255 - thresh_image
 
@@ -78,7 +78,7 @@ for image_identifier in range(1,scanned_input_image_count+1):
             gray_image, 180, 255, cv2.THRESH_BINARY_INV)
         kernel = np.ones((3,3), np.uint8) 
         dilated_image= cv2.dilate(thresh_image, kernel, iterations=1)
-        cv2.imwrite(os.path.join(output_dir,character_image_name+'_'+str(time.time())+str(i)+'.jpeg'),dilated_image)
+        cv2.imwrite(os.path.join(output_dir,character_image_name+'_'+str(time.time())+str(i)+'.jpg'),dilated_image)
 
 if identifier == 1:
     print("You don't have any images now..")
