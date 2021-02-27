@@ -55,12 +55,9 @@ for image_identifier in range(1,scanned_input_image_count+1):
         contour_box = [x, y, x + w, y + h]
 
         if w * h >= 0.5 * (image.shape[0] * image.shape[1]):
-
             continue
-        if w > 100 and h > 100:  # Minimum area check
-
+        if ((w > 130 and h > 130) and ((w<250) and (h<250))):  
             table_boxes.append(contour_box)
-
         else:
             pass
 
