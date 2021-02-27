@@ -65,7 +65,7 @@ for image_identifier in range(1,scanned_input_image_count+1):
 
     for i, contour_box in enumerate(table_boxes):
         w1,h1,w2,h2 = contour_box
-        image_box = image[h1+8:h2-8,w1+5:w2-5]
+        image_box = image[h1+8:h2-8,w1+8:w2-8]
   
         image_128 = cv2.resize(image_box, (128, 128))
 
