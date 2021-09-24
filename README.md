@@ -6,7 +6,9 @@ It's includes following steps:
   <li>Train and Testing model</li>
 </ul>
 
+
 ### 1. Data collection and Datasets Generation
+
 <ul>
 <li>We have visited more than 30 schools with in the Pokhara valley.</li>
 <li>About 2000 students are involved directly during dataset collection.</li>
@@ -24,7 +26,9 @@ It's includes following steps:
 
 </ul>
 
+
 ### 2. Train and Testing model
+
 <ul>
   <li>Data preprocessing: We already have preprocesse data during dataset generation.</li>
   <li>Convolutional Neural Network is used to train our dataset.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/01.%20Devanagari_Character_Recognition_36chars_train-test.ipynb"> Notebook-1here</a></li>
@@ -32,8 +36,6 @@ It's includes following steps:
 ![model_training_cnn](https://user-images.githubusercontent.com/39429615/134666567-3fbd43ab-abae-4064-a482-f8149ecdae5d.PNG)
 
   <li>About 99% training accuracy and 93% validation accuracy has been obtained.</li>
-  
-  ![classifcation_matrix](https://user-images.githubusercontent.com/39429615/134667362-90fcd654-981d-4828-b09f-c0ddea1caee6.png)
 
 
   <li>Model is overfitted,so I applied BatchNormalization and Dropout. But result is not promising.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/00.%20Devanagari_Character_Recognition_36chars_train-test.ipynb">Notebook 2 here</a></li>
