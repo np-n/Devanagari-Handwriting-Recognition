@@ -18,8 +18,19 @@ It's includes following steps:
 ![data_collection_3](https://user-images.githubusercontent.com/39429615/134663616-cf8c2986-8d50-4e1e-8af4-d22ae0a41995.PNG)
   
 <li>All A4 paper are scanned and converted to .tif image form.</li>
-<li>Image are pre-processed and characters are generated in following approach:<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Dataset%20Generation/Box%20as%20contour/approach1/image_render.py">Python implementation here </a></li>
+<li>Image are pre-processed and characters are generated in following approach:<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Dataset%20Generation/Box%20as%20contour/approach1/image_render.py"> Python implementation here </a></li>
 
 ![data_collection_4](https://user-images.githubusercontent.com/39429615/134664758-53ce038a-3fd7-42bf-8c20-b4779726ab9c.PNG)
 
 </ul>
+
+### 2. Train and Testing model
+<ul>
+  <li>Data preprocessing: We already have preprocesse data during dataset generation.</li>
+  <li>Convolutional Neural Network is used to train our dataset.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/01.%20Devanagari_Character_Recognition_36chars_train-test.ipynb"> Notebook-1here</a></li>
+  
+  <li>About 99% training accuracy and 93% validation accuracy has been obtained.</li>
+  <li>Model is overfitted,so I applied BatchNormalization and Dropout. But result is not promising.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/00.%20Devanagari_Character_Recognition_36chars_train-test.ipynb"></a></li>
+  <li>Further works need to be done in the area of hyperparameter tuning since the model is overfitted.</li>
+  <li>Word and line recognition will be further research area.</li>
+  </ul>
