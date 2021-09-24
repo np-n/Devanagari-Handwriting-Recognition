@@ -29,8 +29,10 @@ It's includes following steps:
   <li>Data preprocessing: We already have preprocesse data during dataset generation.</li>
   <li>Convolutional Neural Network is used to train our dataset.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/01.%20Devanagari_Character_Recognition_36chars_train-test.ipynb"> Notebook-1here</a></li>
   
+![model_training_cnn](https://user-images.githubusercontent.com/39429615/134666567-3fbd43ab-abae-4064-a482-f8149ecdae5d.PNG)
+
   <li>About 99% training accuracy and 93% validation accuracy has been obtained.</li>
-  <li>Model is overfitted,so I applied BatchNormalization and Dropout. But result is not promising.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/00.%20Devanagari_Character_Recognition_36chars_train-test.ipynb"></a></li>
+  <li>Model is overfitted,so I applied BatchNormalization and Dropout. But result is not promising.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/00.%20Devanagari_Character_Recognition_36chars_train-test.ipynb">Notebook 2 here</a></li>
   <li>Further works need to be done in the area of hyperparameter tuning since the model is overfitted.</li>
   <li>Word and line recognition will be further research area.</li>
   </ul>
