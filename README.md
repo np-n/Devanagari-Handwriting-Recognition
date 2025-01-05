@@ -3,7 +3,7 @@ It's includes following steps:
 
 <ul>
   <li>Data collection and Datasets Generation</li>
-  <li>Train and Testing model</li>
+  <li>Training and Testing model</li>
 </ul>
 
 
