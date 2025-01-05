@@ -40,5 +40,5 @@ It's includes following steps:
 
   <li>Model is overfitted,so I applied BatchNormalization and Dropout. But result is not promising.<a href="https://github.com/np-n/Devanagari-Handwriting-Recognition/blob/master/Train-Test/02-%20New%20Datasets%20Train-Test/00.%20Devanagari_Character_Recognition_36chars_train-test.ipynb">Notebook 2 here</a></li>
   <li>Further works need to be done in the area of hyperparameter tuning since the model is overfitted.</li>
-  <li>Word and line recognition will be further research area.</li>
+  <li>Word, line and entire paragraph recognition will be further area of researc.</li>
   </ul>
